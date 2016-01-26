@@ -42,6 +42,7 @@ class MbedLsToolsBase:
 
     # Dictionary describing mapping between manufacturers' ids and platform name.
     manufacture_ids = {
+        "0000": "Bootloader",
         "0001": "LPC2368",
         "0002": "LPC2368",
         "0003": "LPC2368",
